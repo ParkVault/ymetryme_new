@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Y me TRY me — contemporary menswear. Discover the latest collection.">
+  <title>Men's Collection | Y me TRY me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">
+    <span>COMPLIMENTARY SHIPPING ON ORDERS OVER ₹1,999</span>
+    <span class="announcement-right">NEW SEASON. NEW PERSPECTIVE.</span>
+  </div>
+
+  <header class="site-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu" id="menuToggle">☰</button>
+    <a class="wordmark" href="#" aria-label="Y me TRY me home">Y me <b>TRY me</b></a>
+    <nav class="main-nav" id="mainNav">
+      <a class="active" href="#collection">MEN</a>
+      <a href="#new-arrivals">NEW IN</a>
+      <a href="#clothing">CLOTHING</a>
+      <a href="#essentials">ESSENTIALS</a>
+      <a href="#journal">THE EDIT</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Search" id="searchToggle">⌕</button>
+      <button class="icon-btn account-action" aria-label="Account">♙</button>
+      <button class="icon-btn wishlist-action" aria-label="Wishlist">♡</button>
+      <button class="bag-btn" id="bagButton" aria-label="Shopping bag">BAG <span id="bagCount">0</span></button>
+    </div>
+  </header>
+
+  <div class="search-panel" id="searchPanel">
+    <input id="searchInput" type="search" placeholder="Search shirts, polos, trousers..." aria-label="Search products">
+    <button id="closeSearch" class="close-search">CLOSE ✕</button>
+  </div>
+
+  <main>
+    <section class="breadcrumb">
+      <a href="#">Home</a><span>/</span><strong>Men</strong>
+    </section>
+
+    <section class="collection-intro" id="collection">
+      <div>
+        <p class="eyebrow">THE YT MEN'S COLLECTION</p>
+        <h1>Made to move.<br><em>Made to be noticed.</em></h1>
+        <p class="intro-copy">Everyday essentials, considered layers and pieces that bring a little more intention to getting dressed.</p>
+      </div>
+      <div class="intro-meta">
+        <span>01 — 04</span>
+        <span>THE NEW SEASON EDIT</span>
+      </div>
+    </section>
+
+    <section class="hero-banner">
+      <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=2000&q=85" alt="Menswear editorial campaign">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">THE NEW SEASON / 2026</p>
+        <h2>Find your<br>own uniform.</h2>
+        <p>Thoughtful fits. Strong silhouettes. Everyday confidence.</p>
+        <a class="light-link" href="#new-arrivals">EXPLORE THE COLLECTION <span>↗</span></a>
+      </div>
+      <div class="hero-index">YT / CAMPAIGN 001</div>
+    </section>
+
+    <section class="category-strip" id="clothing">
+      <div class="section-heading compact">
+        <div><p class="eyebrow">SHOP BY CATEGORY</p><h2>The wardrobe, edited.</h2></div>
+        <a class="text-link" href="#products">VIEW ALL PRODUCTS ↗</a>
+      </div>
+      <div class="category-grid">
+        <a class="category-tile" href="#products" data-category="T-Shirts">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80" alt="T-shirts">
+          <span>T-SHIRTS <b>↗</b></span>
+        </a>
+        <a class="category-tile" href="#products" data-category="Shirts">
+          <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80" alt="Shirts">
+          <span>SHIRTS <b>↗</b></span>
+        </a>
+        <a class="category-tile" href="#products" data-category="Polos">
+          <img src="https://images.unsplash.com/photo-1625910513413-5fc45e6d7e0a?auto=format&fit=crop&w=700&q=80" alt="Polos">
+          <span>POLOS <b>↗</b></span>
+        </a>
+        <a class="category-tile" href="#products" data-category="Trousers">
+          <img src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=700&q=80" alt="Trousers">
+          <span>TROUSERS <b>↗</b></span>
+        </a>
+        <a class="category-tile" href="#products" data-category="Outerwear">
+          <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=80" alt="Outerwear">
+          <span>OUTERWEAR <b>↗</b></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="promo-band" id="essentials">
+      <div class="promo-copy">
+        <p class="eyebrow light">THE EVERYDAY PROJECT</p>
+        <h2>Less noise.<br>More considered.</h2>
+        <p>Easy-to-wear pieces, elevated through fabric, fit and finish.</p>
+        <a class="light-link" href="#products">SHOP THE EDIT <span>↗</span></a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=1100&q=85" alt="Contemporary menswear look">
+    </section>
+
+    <section class="product-section" id="new-arrivals">
+      <div class="section-heading">
+        <div><p class="eyebrow">JUST LANDED</p><h2>New in for him.</h2><p class="muted">Fresh pieces to make the everyday feel different.</p></div>
+        <a class="text-link" href="#products">DISCOVER ALL ↗</a>
+      </div>
+
+      <div class="collection-toolbar" id="products">
+        <div class="filter-title"><strong>MEN'S COLLECTION</strong><span id="resultCount">08 PRODUCTS</span></div>
+        <div class="toolbar-actions">
+          <button class="filter-mobile" id="filterToggle">FILTER +</button>
+          <label class="sort-label">SORT BY
+            <select id="sortSelect">
+              <option value="featured">Featured</option>
+              <option value="low">Price: Low to High</option>
+              <option value="high">Price: High to Low</option>
+              <option value="new">Newest</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="shop-layout">
+        <aside class="filters" id="filters">
+          <div class="filter-head"><strong>FILTERS</strong><button id="clearFilters">CLEAR ALL</button></div>
+          <div class="filter-group">
+            <button class="filter-heading">CATEGORY <span>−</span></button>
+            <div class="filter-options">
+              <label><input type="checkbox" value="T-Shirts" class="category-filter"> T-Shirts</label>
+              <label><input type="checkbox" value="Shirts" class="category-filter"> Shirts</label>
+              <label><input type="checkbox" value="Polos" class="category-filter"> Polos</label>
+              <label><input type="checkbox" value="Trousers" class="category-filter"> Trousers</label>
+              <label><input type="checkbox" value="Outerwear" class="category-filter"> Outerwear</label>
+            </div>
+          </div>
+          <div class="filter-group">
+            <button class="filter-heading">SIZE <span>+</span></button>
+            <div class="filter-options size-options hidden">
+              <label><input type="checkbox" value="S" class="size-filter"> S</label>
+              <label><input type="checkbox" value="M" class="size-filter"> M</label>
+              <label><input type="checkbox" value="L" class="size-filter"> L</label>
+              <label><input type="checkbox" value="XL" class="size-filter"> XL</label>
+            </div>
+          </div>
+          <div class="filter-group">
+            <button class="filter-heading">PRICE <span>+</span></button>
+            <div class="filter-options hidden">
+              <label><input type="radio" name="price" value="all" checked> All prices</label>
+              <label><input type="radio" name="price" value="under1000"> Under ₹1,000</label>
+              <label><input type="radio" name="price" value="1000to2000"> ₹1,000 – ₹2,000</label>
+              <label><input type="radio" name="price" value="above2000"> Above ₹2,000</label>
+            </div>
+          </div>
+          <div class="filter-note">Need help with fit? <a href="#size-guide">View size guide ↗</a></div>
+        </aside>
+
+        <div class="product-grid" id="productGrid">
+          <article class="product-card" data-category="T-Shirts" data-price="899" data-size="S M L XL" data-new="8">
+            <div class="product-image"><span class="product-tag">NEW ARRIVAL</span><button class="heart" aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=85" alt="Essential cotton tee"></div>
+            <div class="product-info"><div><h3>Essential Cotton Tee</h3><p>Washed black</p></div><strong>₹899</strong></div>
+            <button class="quick-add">QUICK ADD <span>＋</span></button>
+          </article>
+          <article class="product-card" data-category="Shirts" data-price="1799" data-size="S M L XL" data-new="7">
+            <div class="product-image"><span class="product-tag">BESTSELLER</span><button class="heart" aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=85" alt="Relaxed fit shirt"></div>
+            <div class="product-info"><div><h3>Relaxed Fit Shirt</h3><p>Soft sand</p></div><strong>₹1,799</strong></div>
+            <button class="quick-add">QUICK ADD <span>＋</span></button>
+          </article>
+          <article class="product-card" data-category="Polos" data-price="1299" data-size="S M L XL" data-new="6">
+            <div class="product-image"><span class="product-tag">NEW ARRIVAL</span><button class="heart" aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1625910513413-5fc45e6d7e0a?auto=format&fit=crop&w=800&q=85" alt="Textured polo"></div>
+            <div class="product-info"><div><h3>Textured Everyday Polo</h3><p>Deep olive</p></div><strong>₹1,299</strong></div>
+            <button class="quick-add">QUICK ADD <span>＋</span></button>
+          </article>
+          <article class="product-card" data-category="Trousers" data-price="2199" data-size="S M L XL" data-new="5">
+            <div class="product-image"><button class="heart" aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=800&q=85" alt="Tailored relaxed trousers"></div>
+            <div class="product-info"><div><h3>Relaxed Tailored Trouser</h3><p>Graphite</p></div><strong>₹2,199</strong></div>
+            <button class="quick-add">QUICK ADD <span>＋</span></button>
+          </article>
+          <article class="product-card" data-category="Outerwear" data-price="3499" data-size="S M L XL" data-new="4">
+            <div class="product-image"><span class="product-tag">LIMITED EDIT</span><button class="heart" aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=85" alt="Utility jacket"></div>
+            <div class="product-info"><div><h3>Utility Layer Jacket</h3><p>Stone</p></div><strong>₹3,499</strong></div>
+            <button class="quick-add">QUICK ADD <span>＋</span></button>
+          </article>
+          <article class="product-card" data-category="T-Shirts" data-price="999" data-size="S M L XL" data-new="3">
+            <div class="product-image"><button class="heart" aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=800&q=85" alt="Graphic relaxed tee"></div>
+            <div class="product-info"><div><h3>Studio Graphic Tee</h3><p>Off white</p></div><strong>₹999</strong></div>
+            <button class="quick-add">QUICK ADD <span>＋</span></button>
+          </article>
+          <article class="product-card" data-category="Shirts" data-price="1899" data-size="S M L XL" data-new="2">
+            <div class="product-image"><button class="heart" aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=800&q=85" alt="Linen blend shirt"></div>
+            <div class="product-info"><div><h3>Linen Blend Shirt</h3><p>Cloud blue</p></div><strong>₹1,899</strong></div>
+            <button class="quick-add">QUICK ADD <span>＋</span></button>
+          </article>
+          <article class="product-card" data-category="Trousers" data-price="1999" data-size="S M L XL" data-new="1">
+            <div class="product-image"><button class="heart" aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&w=800&q=85" alt="Everyday tapered pants"></div>
+            <div class="product-info"><div><h3>Everyday Tapered Pant</h3><p>Warm taupe</p></div><strong>₹1,999</strong></div>
+            <button class="quick-add">QUICK ADD <span>＋</span></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-note" id="journal">
+      <p class="eyebrow">A NOTE FROM YT</p>
+      <h2>Good style isn't loud.<br><em>It stays with you.</em></h2>
+      <p>We make considered pieces for real days, late plans and everything in between.</p>
+      <a class="text-link" href="#collection">DISCOVER OUR POINT OF VIEW ↗</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand"><a class="wordmark footer-logo" href="#">Y me <b>TRY me</b></a><p>Clothing for the way you move through the world.</p></div>
+      <div><h4>EXPLORE</h4><a href="#new-arrivals">New arrivals</a><a href="#clothing">Clothing</a><a href="#essentials">Essentials</a><a href="#journal">The edit</a></div>
+      <div><h4>HELP</h4><a href="#">Contact us</a><a href="#">Shipping & delivery</a><a href="#">Returns & exchanges</a><a href="#">Size guide</a></div>
+      <div><h4>STAY IN THE LOOP</h4><p>New drops, considered edits and things worth knowing.</p><form class="newsletter" onsubmit="event.preventDefault(); alert('Thanks for subscribing to Y me TRY me.');"><input type="email" placeholder="Your email address" required><button type="submit">↗</button></form></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Y me TRY me. All rights reserved.</span><span>PRIVACY&nbsp;&nbsp;&nbsp; TERMS&nbsp;&nbsp;&nbsp; INSTAGRAM</span><span>AN OCTOCORP PROJECT</span></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
